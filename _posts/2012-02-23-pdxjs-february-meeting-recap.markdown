@@ -43,12 +43,14 @@ as a good introduction to various NoSQL databases and the reasons for choosing o
 What is the best promise library for Node.js?
 - [futures.js][] was recommended
 - [q][] is another option, with addons in [qq][]
-- there may be another one called "async", or something like that
+- [async][] is another
 - [EventReactor][] is another nice tool for working with async code in node and in the browser
+- stay tuned for a talk on promises at a future PDX.js meeting
 
 [futures.js]: http://coolaj86.info/futures/
 [q]: https://github.com/kriskowal/q
-[qq]:https://github.com/kriskowal/qq
+[qq]: https://github.com/kriskowal/qq
+[async]: https://github.com/caolan/async
 [EventReactor]: https://github.com/observing/eventreactor
 
 
