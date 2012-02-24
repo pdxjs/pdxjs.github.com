@@ -35,21 +35,23 @@ var Calagator = {
     create: function(data, calendar) {
               var item = Object.create(this),
                   start_time = item.parse_date(data.start_time),
-                  now = new Date();
-              if (start_time > now) {
+                  now = new Date(),
+                  yesterday = now - 86400000;
+              if (start_time > yesterday) {
                 item.data = data;
                 item.start_time = item.parse_date(data.start_time);
                 item.end_time   = item.parse_date(data.end_time);
                 item.calendar = calendar;
-                item.calendar.container.append('<div class="vevent">' + item.summary() + item.start_and_end() + item.venue() + item.description() + '</div>');
+                item.calendar.container.append('<div class="vevent">' + item.summary() + item.start_and_end() + ' ' + item.venue() + item.description() + '</div>');
                 item.calendar.events.push(this);
               }
             },
     summary: function() {
-               return '<h3 class="summary title">' + this.data.title + '</h3>';
+               var calagatorUrl = 'http://calagator.org/events/' + encodeURIComponent(this.data.id);
+               return '<a href="' + calagatorUrl + '"><h3 class="summary title">' + this.data.title + '</h3></a>';
              },
     print_start_time: function() {
-                  var pretty_time = this.start_time.strftime('%A, %B %d from %I:%M %P');
+                  var pretty_time = this.start_time.strftime('%A, %B %d, %Y from %I:%M %P');
                   return '<abbr style="border:none" class="dtstart" title="' + this.iso8601(this.start_time) + '">' + pretty_time + '</abbr>';
                 },
     print_end_time: function() {
@@ -60,8 +62,9 @@ var Calagator = {
                      return '<span class="date">' + this.print_start_time() + ' &ndash; ' + this.print_end_time() + '</span>';
                    },
     venue: function() {
-             return '<a rel="venue" type="application/json" href="' + this.data.venue_id + '" />';
-           },
+        var venue = this.data.venue;
+        return '<span class="venue">at ' + venue.title + ', ' + venue.street_address + '</span>';
+    },
     description: function() {
                    return '<p class="description">' + this.data.description.replace(/\n/g, '<br />') + '</p>';
                  },
