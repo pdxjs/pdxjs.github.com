@@ -7,8 +7,9 @@ excerpt: |
   PDXjs website, Howard Leis Ship gave a talk on CoffeeScript,
   the upcoming CouchConf Portland, 7 Databases in 7 weeks,
   promise libraries, EventReactor, and analysis of the recently
-  popular WAT video.
+  popular [Wat][] video.
   
+  [Wat]: https://www.destroyallsoftware.com/talks/wat
 ---
 
 ### PDXjs.com wishlist

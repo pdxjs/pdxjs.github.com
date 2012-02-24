@@ -123,7 +123,7 @@
                 {% if forloop.first %}
                   {{ post.content }}
                 {% else %}
-                  {{ post.excerpt | markdown }}
+                  {{ post.excerpt | markdownify }}
                   <p><a href="{{ post.url }}">continued »</a></p>
                 {% endif %}
               </div>
