@@ -37,7 +37,7 @@ Howard Lewis Ship gave a talk on CoffeeScript
 - try-finally is broken in IE7
 - how does one debug CoffeeScript apps?
 
-### CounchConf PDX
+### CouchConf PDX
 
 [CouchConf Portland][] is coming up on March 14, 2012.
 
