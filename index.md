@@ -5,13 +5,13 @@ title: Portland JavaScript Admirers
 
 # Portland JavaScript Admirers
 
-The Portland JavaScript Admirers group (PDXjs) is a monthly meetup for all things JavaScript-related (browser, Node.js, etc.).
+The Portland JavaScript Admirers group (PDXjs) is a monthly meetup for all things JavaScript related.
 
-Check out our [Meetup page][1] for details on when and where. You can also follow [our Twitter account][4].
+Check our [Meetup page][1] for details. You can also follow [our Twitter account][4] for updates.
 
-New members are always welcome, no need to RSVP. If you are interested in giving a talk, please email <nobody@example.com>.
+New members are always welcome, no need to RSVP.
 
-We also have a [Slack community][2] you can join to chat with fellow JavaScript admirers. If you would like an invite, please [fill out this Google Form][3] and one of our organizers will send out an invite as soon as possible.
+If you are interested in giving a talk, or want to join our [Slack community][2], please email <nobody@example.com>.
 
 Source on [GitHub][5].
 
