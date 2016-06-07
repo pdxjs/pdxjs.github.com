@@ -3,7 +3,7 @@
 }
 
 html {
-  min-width: 320px;
+  min-width: 300px;
   background: #f5da55;
   color: #323330;
   font-family: Tahoma, Helvetica, Arial, sans-serif;
@@ -47,7 +47,7 @@ a {
   font-weight: bold;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   h1 {
     font-size: 130%;
   }
