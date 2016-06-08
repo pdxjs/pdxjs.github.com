@@ -47,6 +47,11 @@ a {
   font-weight: bold;
 }
 
+ul,
+ol {
+  padding-left: 1em;
+}
+
 @media screen and (max-width: 640px) {
   h1 {
     font-size: 130%;
