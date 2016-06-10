@@ -9,9 +9,15 @@ Portland JavaScript Admirers (PDXjs) is a monthly meetup for all things JavaScri
 
 Check our [Meetup page][1] for details, and follow [our Twitter][2]. New members are always welcome, no need to RSVP.
 
+## Want to talk?
+
 If you are interested in giving a talk or want to join our [Slack community][3], please email <speakatpdxjs@gmail.com> and one of our organizers will reply to you. You do *not* need to be an expert to give a talk.
 
-If you need to contact an organizer directly:
+## Code of Conduct
+
+Everyone is expected to follow our [Code of Conduct][5]. If you don't like that, please do not show up.
+
+## Organizers
 
 * Brian Mock <brian@mockbrian.com>
 * Jim Kogler <koglerjs@gmail.com>
@@ -23,3 +29,4 @@ Source on [GitHub][4].
 [2]: https://twitter.com/pdxjs
 [3]: https://pdxjs.slack.com/
 [4]: https://github.com/pdxjs/pdxjs.github.com
+[5]: code-of-conduct
