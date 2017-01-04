@@ -19,7 +19,6 @@ Everyone is expected to follow our [Code of Conduct][5]. If you don't like that,
 
 ## Organizers
 
-* Brian Mock <brian@mockbrian.com>
 * Jim Kogler <koglerjs@gmail.com>
 * Travis Mitchell <travis@janrain.com>
 
