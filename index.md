@@ -9,9 +9,9 @@ Portland JavaScript Admirers (PDXjs) is a monthly meetup for all things JavaScri
 
 Check our [Meetup page][1] for details, and follow [our Twitter][2]. New members are always welcome, no need to RSVP.
 
-## Want to chat on Slack?
+## Want to give a talk?
 
-If you want to join our [Slack community][3] or give a talk, please email <speakatpdxjs@gmail.com> and one of our organizers will reply to you. You do *not* need to be an expert to give a talk, and no one is expected to give a talk.
+Please email <speakatpdxjs@gmail.com> and one of our organizers will reply to you. You do *not* need to be an expert to give a talk!
 
 ## Code of Conduct
 
